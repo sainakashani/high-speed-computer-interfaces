@@ -4,10 +4,13 @@ This repository is intentionally curated to distinguish student coursework from 
 
 ## Included
 
-- Student-authored coursework reports for the signal-integrity, PCIe, and DDR2 assignments.
 - LTspice `.asc` schematics created for the signal-integrity assignments.
 - Seven DDR2 `subtest.vh` scenario files containing the coursework scheduling/test logic.
-- English technical documentation derived from the submitted work.
+- English technical documentation derived from the submitted reports and simulation results.
+
+## Reviewed but not redistributed
+
+- Student-authored Persian coursework report PDFs were reviewed to extract technical results, experiment structure, limitations, and measured values. They are omitted from the public repository to keep the portfolio lightweight and focused on browsable technical content.
 
 ## Intentionally excluded
 
