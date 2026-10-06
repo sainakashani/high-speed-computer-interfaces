@@ -4,7 +4,7 @@ Coursework portfolio covering **high-speed digital interfaces from the electrica
 
 > **Course context:** Computer Interfaces, Sharif University of Technology  
 > **Primary tools:** LTspice · Vivado · QuestaSim · Verilog/SystemVerilog  
-> **Reports:** the original coursework reports are in Persian; the READMEs in this repository provide an English technical overview.
+> **Documentation:** the original Persian coursework reports were reviewed to build the English technical summaries in this repository. The public repo keeps original student-authored source/schematic files while omitting bulky PDFs and third-party/vendor material.
 
 ## What this repository demonstrates
 
@@ -46,11 +46,9 @@ flowchart LR
 ├── pcie/
 │   ├── phase-1-physical-layer/
 │   ├── phase-2-data-link/
-│   ├── phase-3-transaction-layer/
-│   └── reports/
+│   └── phase-3-transaction-layer/
 ├── ddr2/
-│   ├── scenarios/           # seven student-authored scenario drivers
-│   └── report/
+│   └── scenarios/           # seven student-authored scenario drivers
 └── docs/
     ├── SOURCE_AND_ATTRIBUTION.md
     └── ORIGINAL_ARCHIVE_MAP.md
@@ -83,9 +81,9 @@ See [ddr2/README.md](ddr2/README.md) for the timing rationale and scenario-by-sc
 ## Reproducing the work
 
 - **LTspice:** open the `.asc` files under `signal-integrity/*/ltspice/` and run the configured transient analyses/parameter sweeps.
-- **PCIe:** the original simulations were built around an AMD/Xilinx PCIe example design and course-provided analysis utilities. Those third-party/generated sources are intentionally not redistributed here; the original reports document the setup, changes, and observed results.
+- **PCIe:** the original simulations were built around an AMD/Xilinx PCIe example design and course-provided analysis utilities. Those third-party/generated sources are intentionally not redistributed here; the READMEs document the setup, changes, and observed results.
 - **DDR2:** each folder under `ddr2/scenarios/` contains the coursework `subtest.vh`. Run it with the compatible DDR2 model/testbench that was provided separately for the course.
 
 ## Scope and attribution
 
-This is a curated academic portfolio, not a dump of generated simulator output. Vendor IP/example-design code, Micron model files/datasheets, course handouts, and very large generated traces were deliberately excluded. The retained material focuses on student-created schematics, scenario logic, reports, analysis, and reproducible experiment definitions. Details are in [SOURCE_AND_ATTRIBUTION.md](docs/SOURCE_AND_ATTRIBUTION.md).
+This is a curated academic portfolio, not a dump of generated simulator output. Vendor IP/example-design code, Micron model files/datasheets, course handouts, bulky report PDFs, and very large generated traces were deliberately excluded from the public repository. The retained material focuses on student-created schematics, scenario logic, measured results, technical analysis, and reproducible experiment definitions. Details are in [SOURCE_AND_ATTRIBUTION.md](docs/SOURCE_AND_ATTRIBUTION.md).
