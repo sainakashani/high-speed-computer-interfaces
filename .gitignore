@@ -1,0 +1,42 @@
+# Vivado / Xilinx generated output
+.Xil/
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+xsim.dir/
+*.jou
+*.str
+*.pb
+*.wdb
+*.xpr.user
+
+# Questa / ModelSim generated output
+work/
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+
+# FPGA/IP generated or exported artifacts
+*.dcp
+*.bit
+*.ltx
+*.xsa
+*.runs/
+
+# Generic simulation/build output
+build/
+out/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
